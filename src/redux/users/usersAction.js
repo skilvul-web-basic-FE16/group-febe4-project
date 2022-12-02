@@ -50,7 +50,7 @@ export const registrasi = (data) => {
     };
     console.log(request);
     const response = axios
-      .post("https://menthy.herokuapp.com/user/register", request)
+      .post("https://febe4-mswellbeing-backend-production.up.railway.app/user/register", request)
       .then((response) => {
         console.log(response);
         const users = response.data;
@@ -67,7 +67,7 @@ export const registrasi = (data) => {
 export const GetUsersLogin = (data) => {
   return (dispatch) => {
     axios
-      .post("https://menthy.herokuapp.com/user/login", data)
+      .post("https://febe4-mswellbeing-backend-production.up.railway.app/user/login", data)
       .then((response) => {
         console.log(response);
         const users = response.data;
