@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.foto {
+  height: auto;
+}
+
+#psikolog-card {
+  max-width: 540px;
+}
+
+#detail-psikolog {
+  width: 18rem;
+}
+
+.alumni {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.foto2 {
+  margin-top: -2px;
+}
+
+.poto {
+  height: 500px;
+}
+
+.psikolog {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 12px;
+  margin-right: 0;
+}
+
+.psikolog img {
+  height: auto;
+}
+
+.hapus-padding {
+  padding: 0;
+  border: none;
+  margin-left: 1rem;
+}
+
+.text-card {
+  text-align: justify;
+}
+
+.btn:hover {
+  background-color: white;
+  border-radius: #198754;
+  color: #198754;
+}
+
+.nama {
+  margin-top: -10px;
+}
+
+.posisi {
+  margin-top: -20px;
+}
