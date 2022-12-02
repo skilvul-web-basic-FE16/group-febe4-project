@@ -11,7 +11,7 @@ const PsikologListPage = () => {
   // get all psikolog
   const getAllPsikolog = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/psikolog");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/psikolog");
       setAllPsikolog(response.data);
     } catch (e) {
       console.log(e.message);
