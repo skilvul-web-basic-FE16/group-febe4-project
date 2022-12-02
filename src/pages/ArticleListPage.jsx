@@ -11,7 +11,7 @@ const ArticleListPage = () => {
   // get all article
   const getAllArticle = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/article");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/article");
       setAllArticle(response.data);
     } catch (e) {
       console.log(e.message);

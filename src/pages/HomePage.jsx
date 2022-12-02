@@ -16,7 +16,7 @@ const HomePage = () => {
   // get recomendation psikolog
   const getRecomendationPsikolog = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/psikolog");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/psikolog");
       setRecomendationPsikolog(response.data);
     } catch (e) {
       console.log(e.message);
@@ -30,7 +30,7 @@ const HomePage = () => {
   // get new article
   const getNewArticle = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/article/new=true");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/article/new=true");
       setNewArticle(response.data);
     } catch (e) {
       console.log(e.message);

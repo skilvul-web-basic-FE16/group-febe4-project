@@ -1,0 +1,13 @@
+.is-success{
+    text-decoration: none;
+    color: white;
+    background-color: #198754;
+    border: none;
+    padding: 0 10px;
+    border-radius: 10px;
+
+}
+
+.is-success a:hover {
+    color: black;
+}

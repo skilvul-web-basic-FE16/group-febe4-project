@@ -10,7 +10,7 @@ const DetailPsikolog = () => {
 
   const getDetailPsikolog = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/psikolog");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/psikolog");
       console.log();
       setDetailPsikolog(response.data);
     } catch (e) {
