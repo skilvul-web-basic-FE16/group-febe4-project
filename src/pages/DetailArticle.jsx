@@ -10,7 +10,7 @@ const DetailArticle = () => {
 
   const getDetailArticle = async () => {
     try {
-      let response = await axios.get("https://menthy.herokuapp.com/article");
+      let response = await axios.get("https://febe4-mswellbeing-backend-production.up.railway.app/article");
       console.log();
       setDetailArticle(response.data);
     } catch (e) {
