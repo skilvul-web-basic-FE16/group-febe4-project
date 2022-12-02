@@ -3,14 +3,15 @@ import rain from "../assets/rain.jpg"
 import cyntia from "../assets/cyntia.png"
 import bintang from "../assets/bintang.jpg"
 import rafi from "../assets/rafi.jpg"
+import djun from "../assets/djun.jpg"
 
 const aboutUs = [
     {
         role: "Ketua",
-        foto: fardi,
+        foto: djun,
         nama: "Djunaedi",
         posisi: "Front-end Web Developer",
-        description: "Saya Fardi Khalik Ramadhan, mahasiswa Teknik Informatika semester 5 dari Institut Teknologi Indonesia. Saya memiliki minat dan bakat di UIUX Design dan Front-end Web Development.",
+        description: "Saya Fmerupakan Mahasiswa S1 jurusan Ekonomi Pembangunan di Universitas Tadulako Sulawesi Tengah/Palu. Minat saya adalah mempelajari bidang Teknologi Informasi yang akan terus berkembang, dan menjadi seorang Front End Programmer Specialist.",
         linkCV: "https://sites.google.com/view/djunaedi-2002/beranda"
     },
     {
