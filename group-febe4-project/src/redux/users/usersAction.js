@@ -67,7 +67,10 @@ export const registrasi = (data) => {
 export const GetUsersLogin = (data) => {
   return (dispatch) => {
     axios
-      .post("https://menthy.herokuapp.com/user/login", data)
+      .post(
+        "https://febe4-mswellbeing-backend-production.up.railway.app/user/login",
+        data
+      )
       .then((response) => {
         console.log(response);
         const users = response.data;
@@ -88,7 +91,7 @@ export const fetchUsers = () => {
   return (dispatch) => {
     dispatch(fetchUsersRequest);
     axios
-      .get("https://6353512ae822bad5278ac951.mockapi.io/users")
+      .get("https://febe4-mswellbeing-backend-production.up.railway.app/users")
       .then((response) => {
         const users = response.data;
         // console.log(users);
